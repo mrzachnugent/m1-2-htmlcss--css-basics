@@ -1,3 +1,17 @@
-button {
-  /* Styles here */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: monospace;
+}
+
+.button {
+  padding: 50px 85px;
+  border-radius: 22px;
+  color: #fff;
+  font-size: 32px;
+  background: blue;
+  border: none;
+  cursor: pointer;
 }

@@ -17,3 +17,45 @@ li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  margin: 25px 50px;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  padding-bottom: 40px;
+}
+h2 {
+  font-size: 1.3em;
+  margin-left: 10px;
+}
+h3 {
+  font-size: 1.1em;
+}
+
+img {
+  height: 150px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.grey-rectangle {
+  background: #e2e2e2;
+  border: 1px dashed #222;
+  margin: 10px;
+}
+
+.two-animals {
+  min-width: 493px;
+}

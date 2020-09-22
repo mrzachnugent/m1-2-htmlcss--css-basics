@@ -2,6 +2,35 @@ body {
   padding: 40px;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 button {
-  /* Solve me */
+  background: rgb(65, 4, 179);
+  color: #fff;
+  font-size: 5em;
+  padding: 1.2em 2em;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  transition: transform 0.1s ease-in-out;
+}
+
+button:active {
+  outline: none;
+  transform: scale(0.98);
+}
+
+button:focus {
+  background: darkblue;
+  outline: none;
+}
+
+p {
+  margin: 0;
+  transition: transform 0.2s ease-in-out;
 }

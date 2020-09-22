@@ -2,14 +2,22 @@ img {
   max-width: 300px;
 }
 
-.img1 {
-}
-
 .img2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .img3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .img4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

@@ -1,11 +1,17 @@
 p {
+  font-family: monospace;
+  margin: 0;
+  font-size: 21px;
 }
 
 .one {
+  background: pink;
 }
 
 .two {
+  background: fuchsia;
 }
 
 .three {
+  font-size: 5em;
 }
